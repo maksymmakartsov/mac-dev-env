@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Installing Neovim"
+brew install neovim
