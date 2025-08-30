@@ -55,3 +55,6 @@ addToPathFront() {
 
 addToPathFront $HOME/.local/scripts
 
+
+eval "$(zoxide init zsh)"
+

@@ -1,4 +1,13 @@
 #!/bin/bash
 
+echo "Setting up terminal"
+
 echo "Installing Ghostty"
 brew install --cask ghostty
+
+echo "Installing tmux"
+brew install tmux
+
+echo "tmux plugin manager"
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
