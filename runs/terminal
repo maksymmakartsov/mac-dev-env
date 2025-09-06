@@ -8,6 +8,9 @@ brew install --cask ghostty
 echo "Installing tmux"
 brew install tmux
 
+echo"Clonning tpm"
+git clone https://github.com/tmux-plugins/tpm ~/personal/dev/env/.config/tmux/plugins/tpm
+
 echo "Intalling JetBrains Mono Nerd Font"
 brew install --cask font-jetbrains-mono-nerd-font font-noto-sans-symbols-2
 

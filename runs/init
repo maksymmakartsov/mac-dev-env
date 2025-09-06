@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Check if brew is installed
+# if ! command -v brew &> /dev/null; then
+#     echo "Installing Brew"
+#     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# else
+#     echo "Brew is already installed"
+# fi
+
+echo "Libs"
+brew install mas ripgrep fzf jq tldr parallel bash bc coreutils gawk gh glab gsed nowplaying-cli

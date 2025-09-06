@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Installing Yoink"
+mas install 457622435

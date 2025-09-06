@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Installing Raycast"
+brew install --cask raycast

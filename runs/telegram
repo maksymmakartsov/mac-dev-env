@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Installing Telegram"
+brew install --cask telegram

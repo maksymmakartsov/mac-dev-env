@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Installing Stow"
+brew install stow
